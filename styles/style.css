@@ -317,6 +317,15 @@ section{
     font-weight: 700;
 }
 
+.certicado{
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.certicado:hover{
+    color: var(--text-secondary);
+}
+
 .projetos{
     width: 80%;
     max-width: 1400px;
