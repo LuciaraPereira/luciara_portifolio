@@ -212,6 +212,10 @@ section{
     color: var(--text-primary);
 }
 
+.redes svg:hover{
+    color: var(--text-secondary);
+}
+
 .container-more-infos{
     width: 80%;
     max-width: 1400px;
@@ -244,6 +248,9 @@ section{
     flex-wrap: nowrap;
     animation: deslizar 18s linear infinite;
 }
+.faixa-tecnologias:hover{
+     animation-play-state: paused;
+}
 
 .grupo-tecnologias{
     flex-shrink: 0;
@@ -260,6 +267,7 @@ section{
 .grupo-tecnologias img:hover{
     transform: scale(1.1);
 }
+
 
 @keyframes deslizar{
     from{
@@ -389,8 +397,20 @@ section{
     line-height: 1.3rem;
 }
 
+.infos-projeto{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 
+.infos-projeto a{
+    color: var(--text-primary);
+    margin-top: 0.5rem;
+}
 
+.infos-projeto a:hover{
+    color:var(--text-secondary);
+}
 
 
 .mobile{
